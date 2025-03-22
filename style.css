@@ -37,11 +37,11 @@ body {
 .links {
   display: flex;
   justify-content: center;
-  margin: 16px;
+  margin: 24px;
 }
 
 .links a {
-  margin: 12px;
+  margin: 0 12px;
   color: var(--text-color);
   text-decoration: none;
   font-weight: bold;
