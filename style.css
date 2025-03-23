@@ -35,6 +35,7 @@ body {
 }
 
 .links {
+  align-items: center;
   display: flex;
   justify-content: center;
   margin: 24px;
@@ -101,4 +102,16 @@ input:checked + .slider {
 
 input:checked + .slider:before {
   transform: translateX(24px);
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--text-color);
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
 }
